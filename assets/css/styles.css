@@ -1,0 +1,195 @@
+/*************
+General
+**************/
+
+
+body {
+font-family: 'Sarala', sans-serif;
+margin: 0;
+}
+a {
+	color: #06f;
+}
+h1 {
+	font-size: 2.2em;
+	margin: 1em 0 1em 0 ;
+	font-family: 'Work Sans', sans-serif;
+	line-height: 1.3;
+}
+h2 {
+	font-size: 1.4em;
+	margin: 0 0 1em;
+	font-family: 'Work Sans', sans-serif;
+
+}
+h2, h3, h4 {
+	margin: 1em 0 ;
+
+}
+h3, h4 {
+	margin: 1em 0 ;
+}
+
+p, ul {
+	font-size: 1em;
+	line-height: 1.5;
+}
+code {
+	font-size: 1.2727em;
+	color: #777;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 90em;
+	padding: 1em 0;
+}
+
+.footer {
+	padding-top: 1.5em;
+}
+
+
+/* minor responsive adjustments */
+
+.footer {
+	border-top: 1px dotted #aaa;
+}
+.content {
+	border-bottom: 1px dotted #aaa;
+	margin-bottom: 1.5em;
+}
+
+img{
+width: 60%;
+margin: 5em 0 5em 0;
+display: block;
+border: 1px #000 solid;
+}
+.running_head {
+	float: right;
+	top:0;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+/*************
+cover
+**************/
+.cover {
+    text-indent: 1em;
+		background: #eee;
+		height: 100vh;
+		text-align: center;
+
+}
+.cover.container {
+}
+.cover h2,h3{
+}
+.cover p{
+	text-align: left;
+	text-indent: 0em;
+}
+
+/*************
+CONTROLS
+**************/
+#controls a{
+	text-decoration: none;
+	font-size: 0.8em;
+	width: 30px;
+	color: #444444;
+	padding: 5px 10px 5px 10px;
+	-webkit-border-radius: 27px;-moz-border-radius: 27px;border-radius: 27px;
+}
+
+/*************
+POWER
+**************/
+
+/*************
+READER
+**************/
+.read {
+}
+.side{
+}
+p{
+		text-indent: 1em;
+		margin: 0 15em 0em 0em;
+}
+p:first-child {
+    text-indent: 0em;
+		margin: 0 0 .5em;
+}
+
+/*************
+FOOTNOTES
+**************/
+.footnote-ref{
+vertical-align: super;
+color: inherit;
+font-size: .8em;
+}
+.footnote-ref a {
+	color: #000000;
+	text-decoration: none;
+}
+.footnote-ref a:hover {
+	color: #ff6200;
+}
+.footnotes-sep{
+	margin-top: 50px;
+}
+.footnotes {
+	font-size: 0.8125em;
+}
+.footnotes p {
+	margin: 0 0;
+
+}
+.footnote-item {
+line-height: 1;
+padding-left: 0px;
+}
+
+@media only screen and (min-width: 34em) {
+	p, ul {
+		font-size: 1.2em;
+	}
+	.container {
+		padding: 1em;
+	}
+	h1 {
+		font-size: 2.6em;
+	}
+	h2 {
+		font-size: 1.6em;
+	}
+}
+
+@media only screen and (min-width: 54em) {
+	.content {
+		border: none;
+		border-right: 1px dotted #aaa;
+		margin-bottom: 0;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 1.7em;
+	}
+}
+
+@media only screen and (min-width: 76em) {
+
+	h1 {
+		font-size: 3.2em;
+	}
+	h2 {
+		font-size: 1.8em;
+	}
+}

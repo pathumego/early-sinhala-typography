@@ -1,0 +1,27 @@
+{
+  "name": "fontester",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "handlebars": "^4.0.2",
+    "harmonize": "^1.4.4",
+    "metalsmith": "^2.0.1",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.4.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-markdown-remarkable": "^0.1.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-watch": "^1.0.3",
+    "node-watch": "^0.3.5",
+    "open": "0.0.5",
+    "serve-index": "^1.8.0"
+  },
+  "dependencies": {
+    "metalsmith-build-date": "^0.2.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-hyphenate": "^0.4.1",
+    "metalsmith-markdown-remarkable": "^0.1.1"
+  }
+}
